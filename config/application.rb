@@ -22,5 +22,8 @@ module Pinteresting
 
     # Required for Heroku
     config.assets.initialize_on_precompile = false
+
+    # For bootstrap
+    config.assets.paths << "#{Rails}/vendor/assets/fonts"
   end
 end
