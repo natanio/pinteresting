@@ -19,8 +19,10 @@ $icon-font-path: 'bootstrap/';
      font-weight: bold;
 }
 
-.panel-heading img {
-width: 100%;
+.panel {
+	.panel-heading img {
+		width: 100%;
+	}
 }
 
 @font-face {
